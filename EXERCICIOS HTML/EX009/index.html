@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>citações e codigo</title>
+</head>
+<body>
+    <h1>outras formatações </h1>
+    <h2>código-fonte</h2>
+    <p>o document.getElementById("teste") e escrito em javas</p>
+    <!-----agora vamos ver essa frase em código fonte pela tag code----->
+    <p>o <code>document.getElementById("teste")</code>  e escrito em javas</p>
+    <h3>exmplo de mostragem de codigo sem mudar a origem de escrita c pre e code </h3>
+  <pre>
+    <p><code>
+palavra = input("Digite a palavra secreta:").lower().strip()
+for x in range(100):
+print()
+digitadas = []
+acertos = []
+erros = 0
+while True:
+senha = ""
+for letra in palavra:
+senha += letra if letra in acertos else "."
+print(senha)
+if senha == palavra:
+print("Você acertou!")
+break
+tentativa = input("\nDigite uma letra:").lower().strip()
+if tentativa in digitadas:
+print("Você já tentou esta letra!")
+continue
+else:
+digitadas += tentativa
+if tentativa in palavra:
+    acertos += tentativa
+            else:</code></p>
+        </pre>
+<h2>citações</h2>
+<p>estou aprendendo <abbr title=" HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheet">CSS</abbr></p>
+    
+</body>
+</html>
