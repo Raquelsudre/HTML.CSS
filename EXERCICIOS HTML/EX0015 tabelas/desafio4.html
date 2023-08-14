@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>escopo em grupo</title>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+           
+        }
+     th, td{
+            width: 50px;
+            height: 25px;
+            border: 1px solid black;
+             padding: 5px;
+        }
+       thead,tfoot{
+        color: white;
+        background-color: grey;
+       }
+       .medias{
+        text-align: left;
+        color: white;
+        background-color: grey;
+       }
+       thead.destaque{
+        background-color: aquamarine;
+
+       }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="colsgroup" class="destaque">Área</th>
+                <th rowspan="2" scope="colsgroup" >Disciplina</th>
+                <th colspan="2" scope="colsgroup">Notas</th>
+                <th rowspan="2"scope="colsgroup">Média</th>
+                 </tr>
+                <tr> 
+                     <th scope="colsgroup">Nota 1</th>
+                      <th scope="colsgroup">Nota 2</th>
+                 </tr>
+     </thead>
+     <tbody>
+        <th rowspan="5" scope="colsgroup">Exatas</th>
+       <tr>
+         <td>Matemática</td>
+         <td>0.0</td>
+         <td>0.0</td>
+         <td>0.0</td>
+</tr>
+
+       <tr>
+         <td>Física</td>
+         <td>0.0</td>
+         <td>0.0</td>
+         <td>0.0</td>
+</tr>
+       <tr>
+        <td>Química</td> 
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+    
+    </tr> 
+      
+       <tr>
+         <td>Biologia</td>
+         <td>0.0 </td>
+         <td>0.0</td>
+         <td>0.0</td>
+        </tr>
+        <tr class="medias">
+            <th colspan="4" scope="row" >Média de Exatas</th>
+            <td>0.0</td>
+        </tr>
+
+       
+        <th rowspan="3" scope="colsgroup">Humanas</th>
+        <tr>
+            <td>História</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+           
+
+        </tr>
+        <tr>
+             <td>Geografia</td>
+             <td>0.0</td>
+             <td>0.0</td>
+             <td>0.0</td>
+            </tr>
+
+    <tfoot>
+            <tr class="medias">
+               <th colspan="4" scope="row">Média de Humanas</th> 
+               <td>0.0</td>
+            </tr>
+        </tfoot>
+     
+
+     </tbody>
+    </table>
+    
+</body>
+</html>
