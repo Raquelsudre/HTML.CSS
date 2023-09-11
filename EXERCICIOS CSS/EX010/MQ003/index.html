@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media query</title>
-    <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
-    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+   <style>
+    /*config gerais*/
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh; 
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    text-shadow: 3px 3px 0px #16248b;
+    padding: 10px;
+}
+    /*config paisagem*/
+    @media screen and(orientation: landscape) {
+    body{
+    background-color: blue;
+    background-position: left bottom;
+     }
+}
+        
+  
+    
+    /*config retrato*/
+    @media screen and(orientation: portrait) {
+    body{
+    background-color: black;
+    background-position: center bottom;
+}
+        
+    }
+   </style>
 </head>
 <body>
     <h1>mude a orientação do seu dispositivo</h1>
