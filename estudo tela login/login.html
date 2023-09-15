@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            
+            margin: 0px;
+            padding: 10px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+          
+        }
+        html,bord{
+              background-image: linear-gradient(to top, black,white);
+              height: 100%;
+        }
+        form{
+            max-width: 350px;
+            background-image: linear-gradient(to right,  rgba(96, 135, 187, 0.564),rgb(15, 35, 66));
+            color: white;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.682);
+            display: block;
+            margin: auto;
+            margin-top: 30vh;
+            text-align: center;
+            padding: 5px;
+    }
+    
+        input{
+            display: block;
+            margin: auto;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: rgba(248, 248, 248, 0.479);
+            color: white;
+           
+        }
+        input:hover{
+          border:1px solid rgb(253, 254, 254);
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+ <form method="post" > 
+    <h1>Login</h1>
+     <!-- <label for="iemail">Email</label> -->
+   <input type="email" name="Email" id="iemail" placeholder="Email" required>
+
+ 
+        <!-- <label for="isenha">Senha</label> -->
+       <input type="password" name="Senha" id="isenha" placeholder="Senha" required minlength="8">
+
+       <input type="submit" value="Enviar">
+ </form>
+</body>
+</html>
