@@ -11,6 +11,10 @@ section#login > div#imagem{
     width: 50%;
     height: 100%;
 }
+div#formulario > h1{
+    font-size: 2em;
+    
+ }
 
     
 
@@ -22,13 +26,20 @@ section#login > div#imagem{
         background-image: linear-gradient(to bottom, rgb(255, 55, 0), rgb(81, 203, 81),rgb(46, 122, 203),rgb(234, 234, 21));
        } 
     section#login{
+        
         width: 950px;
     }
     section#login > div#imagem{
-        float: left;
-        width: 60%;
+        float: right;
+        width: 50%;
         height: 100%;
 
  }
+ div#formulario > h1{
+    
+    font-size: 3em;
+    
+ }
+ 
  
  }
