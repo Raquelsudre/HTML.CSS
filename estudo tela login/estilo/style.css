@@ -41,6 +41,7 @@ section#login > div#imagem{
 section#login > div#formulario{
     display: block;
     padding: 10px;
+   
 }
 div#formulario > p{
     font-size: 0.8em;
@@ -55,7 +56,7 @@ div#formulario > p{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.552);
 
  }
-form > input[type=submit]{
+ form  div.bottom > input[type=submit]{
     display: block;
     background-color: rgb(230, 51, 31);
     color: white;
@@ -66,10 +67,10 @@ form > input[type=submit]{
     cursor: pointer;
     margin-top: 20px;
  }
- form > input[type=submit]:hover{
+ div.bottom > input[type=submit]:hover{
     background-color: brown;
  }
- form > a.botao{
+ div.bottom > a.botao{
     display: block;
     text-align: center;
     font-size: 0.8em;
@@ -83,20 +84,21 @@ form > input[type=submit]{
     margin-top: 7px;
     text-decoration: none;
  }
- form > a.botao:hover{
+ div > a.botao:hover{
     background-color: rgba(165, 42, 42, 0.376);
     color: white;
  }
- form > div#campo{
-    display: block; 
-
+ 
     
-    margin: 5px 0px 10px 5px;
-   
-    
- }
- form > input{
+ 
+  div#campo > input{
+    width: 180px;
     border: 1px solid black;
     color: brown;
+    padding: 5px;
+    margin: 4px;
+ }
+ div#campo > span{
+ color: rgb(196, 27, 27);
  }
  

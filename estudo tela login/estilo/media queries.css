@@ -4,7 +4,7 @@
     background-image: linear-gradient(to bottom, rgb(255, 55, 0), rgb(81, 203, 81),rgb(46, 122, 203),rgb(234, 234, 21));
    } 
     section#login{
-        width: 80vw;
+        width: 700px;
     }
 section#login > div#imagem{
     float: left;
@@ -15,7 +15,34 @@ div#formulario > h1{
     font-size: 2em;
     
  }
-
+ div#formulario > p{
+    margin-bottom: 50px;
+ }
+ div#campo > input{
+    width: 200px;
+  }
+ 
+  div#campo > span{
+    margin-left: 30px;
+  }
+  
+  
+  
+  form  div.bottom > input[type=submit]{
+    
+     width: 200px;
+     margin: auto;
+     margin-top: 30px;
+     
+     
+     
+  }
+  form div.bottom > a.botao{
+   width: 200px;
+   margin-left: 410px;
+        
+         
+     }
     
 
 }
@@ -27,19 +54,48 @@ div#formulario > h1{
        } 
     section#login{
         
-        width: 950px;
+        width: 900px;
+       
     }
     section#login > div#imagem{
         float: right;
         width: 50%;
         height: 100%;
-
- }
- div#formulario > h1{
+}
+div#formulario > h1{
     
     font-size: 3em;
     
  }
+ div#formulario > p{
+    margin-bottom: 50px;
+ }
+
+
+div#campo > input{
+   width: 200px;
+ }
+
+ div#campo > span{
+   margin-left: 80px;
+ }
  
+ 
+ 
+ form  div.bottom > input[type=submit]{
+   
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    
+    
+    
+ }
+ form div.bottom > a.botao{
+  width: 200px;
+  margin-left: 120px;
+       
+        
+    }
  
  }
