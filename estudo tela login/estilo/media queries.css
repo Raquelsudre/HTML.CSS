@@ -5,6 +5,7 @@
    } 
     section#login{
         width: 700px;
+        height: 305px;
     }
 section#login > div#imagem{
     float: left;
@@ -16,34 +17,22 @@ div#formulario > h1{
     
  }
  div#formulario > p{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
  }
- div#campo > input{
-    width: 200px;
-  }
  
-  div#campo > span{
-    margin-left: 30px;
-  }
-  
-  
-  
-  form  div.bottom > input[type=submit]{
-    
-     width: 200px;
-     margin: auto;
-     margin-top: 30px;
+     form > input[type=submit]{
      
-     
-     
-  }
-  form div.bottom > a.botao{
-   width: 200px;
-   margin-left: 410px;
-        
-         
+     margin-left: 344px;
+      width: 50%;
      }
     
+    form > a.botao{
+      margin-left: 344px;
+      width: 50%;
+     }
+     div#campo > span{
+    margin-left: 50px;
+  }
 
 }
 
@@ -55,11 +44,12 @@ div#formulario > h1{
     section#login{
         
         width: 900px;
+        height: 310px;
        
     }
     section#login > div#imagem{
         float: right;
-        width: 50%;
+        width: 450px;
         height: 100%;
 }
 div#formulario > h1{
@@ -68,34 +58,24 @@ div#formulario > h1{
     
  }
  div#formulario > p{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
  }
 
 
-div#campo > input{
-   width: 200px;
- }
-
- div#campo > span{
-   margin-left: 80px;
- }
- 
- 
- 
- form  div.bottom > input[type=submit]{
+ form > input[type=submit]{
    
-    width: 200px;
-    margin: auto;
-    margin-top: 30px;
-    
-    
-    
- }
- form div.bottom > a.botao{
-  width: 200px;
-  margin-left: 120px;
-       
-        
-    }
+  margin-left: 16px;
+  width: 45%;
+  }
+ 
+ form > a.botao{
+   margin-left: 16px;
+   width: 45%;
+  }
+  div#campo > span{
+ margin-left: 95px;
+ 
+ 
+}
  
  }
